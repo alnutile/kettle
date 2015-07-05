@@ -999,10 +999,7 @@ class ORM
         return new $class_name();
     }
 
-    //-----------------------------------------------
-    // PRIVATE METHODS
-    //-----------------------------------------------
-    protected function __construct()
+    public function __construct()
     {
 
     }
